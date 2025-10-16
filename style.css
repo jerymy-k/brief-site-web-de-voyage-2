@@ -686,3 +686,52 @@ header a{
     left: 60px;
     border-radius: 50%;
 }
+.whoarwe{
+    box-shadow: 10px 10px 30px black;
+    margin-top: 50px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-self: center;
+    font-family: poppins , sans-serif;
+    border-radius: 50px;
+    h1{
+        font-family: volkhov;
+        font-weight: 100;
+        display: flex;
+        justify-content: center;
+        font-size: 70px;
+        padding-bottom:50px ;
+        color: var(--bl--eu);
+        text-shadow: 10px 10px 20px black;
+    }
+    p{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-bottom:30px ;
+    }
+}
+.pictxt{
+    justify-content: space-between;
+    font-family: poppins , sans-serif;
+    justify-self: center;
+    margin: 150px 0;
+    width: 80%;
+    display: flex;
+    img{
+        width: 60%;
+        align-content: center;
+   }
+   p{font-family: poppins , sans-serif;
+    padding: 10px;
+    border: solid;
+    font-size: 20px;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px black;
+
+   }
+}
