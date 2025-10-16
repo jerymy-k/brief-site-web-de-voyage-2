@@ -40,7 +40,7 @@ header a{
     width: 900px;
     display: flex;
     justify-content: space-between;
-    justify-items: center;
+    align-items: center;
     font-size: 15px;
     font-family: poppins , sans-serif;
     font-weight: 500;
@@ -413,8 +413,276 @@ header a{
         color: black;
     }
     a:hover{
-        border-radius:6px ;
         transform: scale(1.1);
-        box-shadow: 0 2px 30px black;
     }
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 50%;
+    padding-bottom: 30px;
+    img{
+        height: 300px;
+        width: 200px;
+    }
+    .titledes{
+        justify-items: center;  
+        height: 80px;
+        font-size: 10px;
+        margin-bottom: 30px;
+        h5{
+            font-family: poppins , sans-serif;
+            opacity: 70%;
+            font-size: 12px;
+            font-weight:4700;
+            padding: 10px 0;
+            
+        }
+        h1{
+            color: var(--bl--eu);
+            font-family: volkhov;
+            font-size: 30px;
+        }
+    }
+    .pictures{
+        font-family: poppins , sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        .pic{
+            border-radius: 15px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.671);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .text{
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 30%;
+                background-color: white;
+                border-radius: 0 0 10px 10px ;
+                span{ 
+                    opacity: 70%;
+                }
+                .text1{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-right: 20px;
+                }
+                .text2{
+                    #locapic{
+                    width: 15px;
+                    height: 15px;
+                    padding-left: 10px;
+                    }
+                    padding : 10px 0;
+                    
+                }
+            }
+            
+        }
+    }
+}
+.pic:hover{
+    transform: scale(1.1);
+}
+.bigsecpic{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    img{
+        height: 380px;
+        width: 250px;
+    }
+    .pictures{
+        font-family: poppins , sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin: 50px;
+        .pic{
+            border-radius: 15px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.671);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .text{
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 30%;
+                background-color: white;
+                border-radius: 0 0 10px 10px ;
+                span{ 
+                    opacity: 70%;
+                }
+                .text1{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-right: 20px;
+                }
+                .text2{
+                    #locapic{
+                    width: 15px;
+                    height: 15px;
+                    padding-left: 10px;
+                    }
+                    padding : 10px 0;
+                }
+            }
+            
+        }
+    }
+}
+.book{
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    width: 60%;
+    .right{
+        margin-right: 30px;
+        width: 70%;
+        .titledes{
+            justify-items: start;  
+            width: 80%;
+            font-size: 10px;
+            margin-bottom: 30px;
+            h5{
+                font-family: poppins , sans-serif;
+                opacity: 70%;
+                font-size: 12px;
+                font-weight:4700;
+                padding: 10px 0;
+                
+            }
+            h1{
+                color: var(--bl--eu);
+                font-family: volkhov;
+                font-size: 40px;
+            }
+        }
+        .para{
+            display: flex;
+            flex-direction: column;
+            .parag{
+                display: flex;
+                .paratext{
+                    opacity: 80%;
+                    font-family: poppins , sans-serif;
+                    font-size: 15px;
+                    h4{
+                        padding-left: 20px;
+                    }
+                    p{
+                        padding-left: 20px;
+                        font-family: poppins , sans-serif;
+                        font-size: 12px;
+                        
+                    }
+                }
+            }
+            img{
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+                width: 40px;
+                height: 40px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .left{
+        position: relative;
+        width: 35%;
+        .pic{
+            border-radius: 15px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.671);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .text{
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 30%;
+                background-color: white;
+                border-radius: 0 0 10px 10px ;
+                span{ 
+                    opacity: 70%;
+                }
+                .text1{
+                    font-family: poppins , sans-serif;
+                    font-size: 10px;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-right: 20px;
+                }
+                .text2{
+                    font-family: poppins , sans-serif;
+                    font-size: 10px;
+                    font-weight: 500;
+                    #locapic{
+                    width: 15px;
+                    height: 15px;
+                    padding-left: 10px;
+                    }
+                    padding : 10px 0;
+                }
+            }
+            
+        }
+        img{
+            width: 150px;        
+        }
+        .img1{
+            position: absolute;
+            top: 100px;
+            left: 0;
+            
+        }
+        .img2{
+            position: absolute;
+            bottom: -80px;
+            right: 70px;
+        }
+    }
+    .parag:hover{
+        transform: scale(1.1);
+    }
+    
+}
+.left::after{
+    position: absolute;
+    content:"";
+    width: 150px;
+    height: 150px;
+    background-image: url("img/bleucircel.png");
+    background-position: center;
+    filter: blur(50px);
+    z-index: -1;
+    top: 80px;
+    left: 60px;
+    border-radius: 50%;
 }
