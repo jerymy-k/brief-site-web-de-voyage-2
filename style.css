@@ -1013,4 +1013,104 @@ header a{
         }
     }
 }
+.signup{
+    justify-self: center;
+    height: 37rem;
+    width: 65rem;
+    display: grid;
+    background-color: #F2F2F2;
+    border-radius: 40px 0 0 40px;
+    grid-template-columns: 25rem 40rem;
+    .rightlog{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        border-radius: 40px 0 0 40px ;
+        background-color: #fff1daa0;
+        .titlelog{ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: volkhov;
+            color: var(--bl--eu);
+            font-size: 25px;
+            text-align: center;
+            h2{
+                font-family: poppins ,  sans-serif;
+                font-weight: 400;
+                color: black;
+                opacity: 70%;
+            }
+
+        }
+    }
+    .rightlog::after{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        bottom: -100px;
+        right: -100px;
+        content: "";
+        filter: blur(100px);
+        border-radius: 50%;
+        background-color: rgba(128, 0, 128, 0.47);
+    }
+    .leftform{
+        padding-top: 2rem;
+        font-family: poppins , sans-serif;
+        justify-content: center;
+        .titleform{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 3rem;
+            h1{
+                font-family: volkhov;
+                color: var(--bl--eu);
+                font-size: 25px;
+            }
+        }
+        .formlog{
+            justify-content: space-between;
+            height: 10rem;
+            display: flex;
+            flex-direction: column;
+            padding: 0 40px;
+            .user{
+                display: flex;
+                flex-direction: column;
+                
+            }
+            .password{
+                display: flex;
+                flex-direction: column;
+            }
+            input{
+                font-size: 20px;
+                background-color: transparent;
+                border: none;
+                border-bottom: solid;
+                margin-top: 10px;
+                height: 2rem;
+            }
+        }
+        .submit{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 1rem;
+                button{
+                color: white;
+                width: 100%;
+                border-radius: 10px;
+                font-family: poppins , sans-serif;
+                font-size: large;
+                font-weight: 700;
+                background-color: rgba(0, 0, 255, 0.432);
+                height: 3rem;
+                }
+        }
+    }
+}
 
